@@ -1,0 +1,40 @@
+/* This is my style sheet for fonts of the various texts and colors for links */
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: medium;
+    color: white;
+}
+h1{
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+}
+h2{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(59, 59, 190);
+}
+.listheading{
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(103, 102, 102);
+}
+li{
+    font-weight: normal; 
+    color: darkgray;
+    font-style: normal;
+}
+.background{
+    background-color: aliceblue;
+}
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
